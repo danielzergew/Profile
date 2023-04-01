@@ -1,5 +1,5 @@
-# Please install Laravel and Tailwind CSS
-# in the terminal, type "php artisan serve" and "npm run dev"
+Please install Laravel and Tailwind CSS
+in the terminal, type "php artisan serve" and "npm run dev"
 
 # Home Page
 ![HomePage](https://github.com/danielzergew/profile/blob/main/profile/public/images/homeview.png?raw=true)
