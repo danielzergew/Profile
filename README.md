@@ -2,10 +2,10 @@
 # in the terminal, type "php artisan serve" and "npm run dev"
 
 # Home Page
-![HomePage](https://github.com/danielzergew/profile/blob/main/homeview.png?raw=true)
+![HomePage](https://github.com/danielzergew/profile/blob/main/profile/public/images/homeview.png?raw=true)
 
 # Achievements Page
-![AchievementsPage](https://github.com/danielzergew/profile/blob/main/achievementsview.png?raw=true)
+![AchievementsPage](https://github.com/danielzergew/profile/blob/main/public/images/achievementsview.png?raw=true)
 
 # Experiences and Skills Page
 ![ExperiencesAndSkillsPage](https://github.com/danielzergew/profile/blob/main/expview.png?raw=true)
