@@ -38,87 +38,30 @@
         <div class="absolute w-full h-full bg-gradient-to-b from-transparent to-[#2C3639]"></div>
     </div>
     <div class="h-fit mx-2 mb-5 pt-10 gap-10 flex justify-evenly flex-wrap">
-        <div class="rounded-2xl flex flex-col text-[#DCD7C9] bg-[#3F4E4F] shadow-lg shadow-black/30 group hover:bg-[#2C3639] ease-out duration-500 h-max w-96 overflow-hidden">
-            <div class="w-full h-[70%] bg-cover overflow-hidden">
-                <img src="images/pingpong.jpg" class="ease-out duration-500 group-hover:scale-110 group-hover:rotate-3">
-            </div>
-            <div class="w-full h-[30%] p-4">
-                <p class="text-3xl font-bold">Table Tennis 2nd Place</p>
-                <p class="italic">PPTI 4th Cawu - 2022</p>
-            </div>
-        </div>
-        <div class="rounded-2xl flex flex-col text-[#DCD7C9] bg-[#3F4E4F] shadow-lg shadow-black/30 group hover:bg-[#2C3639] ease-out duration-500 h-max w-96 overflow-hidden">
-            <div class="w-full h-[70%] bg-cover overflow-hidden">
-                <img src="images/graduate.jpg" class="ease-out duration-500 group-hover:scale-110 group-hover:rotate-3">
-            </div>
-            <div class="w-full h-[30%] p-4">
-                <p class="text-3xl font-bold">Best Graduate</p>
-                <p class="italic">12 Grade - 2021</p>
-            </div>
-        </div>
-        <div class="rounded-2xl flex flex-col text-[#DCD7C9] bg-[#3F4E4F] shadow-lg shadow-black/30 group hover:bg-[#2C3639] ease-out duration-500 h-max w-96 overflow-hidden">
-            <div class="w-full h-[70%] bg-cover overflow-hidden">
-                <img src="images/finalis.jpg" class="ease-out duration-500 group-hover:scale-110 group-hover:rotate-3">
-            </div>
-            <div class="w-full h-[30%] p-4">
-                <p class="text-3xl font-bold">Finalist Lomba Video Bank Indonesia</p>
-                <p class="italic">2020</p>
-            </div>
-        </div>
-        <div class="rounded-2xl flex flex-col text-[#DCD7C9] bg-[#3F4E4F] shadow-lg shadow-black/30 group hover:bg-[#2C3639] ease-out duration-500 h-max w-96 overflow-hidden">
-            <div class="w-full h-[70%] bg-cover overflow-hidden">
-                <img src="images/character.jpg" class="ease-out duration-500 group-hover:scale-110 group-hover:rotate-3">
-            </div>
-            <div class="w-full h-[30%] p-4">
-                <p class="text-3xl font-bold">Best in Character</p>
-                <p class="italic">10 Grade - 2020</p>
-            </div>
-        </div>
-        <div class="rounded-2xl flex flex-col text-[#DCD7C9] bg-[#3F4E4F] shadow-lg shadow-black/30 group hover:bg-[#2C3639] ease-out duration-500 h-max w-96 overflow-hidden">
-            <div class="w-full h-[70%] bg-cover overflow-hidden">
-                <img src="images/leadership.jpg" class="ease-out duration-500 group-hover:scale-110 group-hover:rotate-3">
-            </div>
-            <div class="w-full h-[30%] p-4">
-                <p class="text-3xl font-bold">Best in Leadership</p>
-                <p class="italic">9 Grade - 2019</p>
-            </div>
-        </div>
-        <div class="rounded-2xl flex flex-col text-[#DCD7C9] bg-[#3F4E4F] shadow-lg shadow-black/30 group hover:bg-[#2C3639] ease-out duration-500 h-max w-96 overflow-hidden">
-            <div class="w-full h-[70%] bg-cover overflow-hidden">
-                <img src="images/character2.jpg" class="ease-out duration-500 group-hover:scale-110 group-hover:rotate-3">
-            </div>
-            <div class="w-full h-[30%] p-4">
-                <p class="text-3xl font-bold">Best in Character</p>
-                <p class="italic">8 Grade - 2018</p>
-            </div>
-        </div>
-        <div class="rounded-2xl flex flex-col text-[#DCD7C9] bg-[#3F4E4F] shadow-lg shadow-black/30 group hover:bg-[#2C3639] ease-out duration-500 h-max w-96 overflow-hidden">
-            <div class="w-full h-[70%] bg-cover overflow-hidden">
-                <img src="images/academic.jpg" class="ease-out duration-500 group-hover:scale-110 group-hover:rotate-3">
-            </div>
-            <div class="w-full h-[30%] p-4">
-                <p class="text-3xl font-bold">Best in Academic</p>
-                <p class="italic">7 Grade - 2017</p>
-            </div>
-        </div>
-        <div class="rounded-2xl flex flex-col text-[#DCD7C9] bg-[#3F4E4F] shadow-lg shadow-black/30 group hover:bg-[#2C3639] ease-out duration-500 h-max w-96 overflow-hidden">
-            <div class="w-full h-[70%] bg-cover overflow-hidden">
-                <img src="images/leadership2.png" class="ease-out duration-500 group-hover:scale-110 group-hover:rotate-3">
-            </div>
-            <div class="w-full h-[30%] p-4">
-                <p class="text-3xl font-bold">Best in Leadership</p>
-                <p class="italic">7 Grade - 2016</p>
-            </div>
-        </div>
-        <div class="rounded-2xl flex flex-col text-[#DCD7C9] bg-[#3F4E4F] shadow-lg shadow-black/30 group hover:bg-[#2C3639] ease-out duration-500 h-max w-96 overflow-hidden">
-            <div class="w-full h-[70%] bg-cover overflow-hidden">
-                <img src="images/medals.jpg" class="ease-out duration-500 group-hover:scale-110 group-hover:rotate-3">
-            </div>
-            <div class="w-full h-[30%] p-4">
-                <p class="text-3xl font-bold">Elementary Achievements</p>
-                <p class="italic">Best in Computer, Art, Music and Matematics - (2009 - 2015)</p>
-            </div>
-        </div>
+        @for($i = 0; $i < count($achievements); $i++)
+            <?php $color = '' ?>
+            @switch($achievements[$i]['rarity'])
+                @case('R')
+                    <?php $color = 'bg-[#3F4E4F]' ?>
+                    @break
+                @case('SR')
+                    <?php $color = 'bg-yellow-700' ?>
+                    @break
+                @case('SSR')
+                    <?php $color = 'bg-red-800' ?>
+                    @break
+            @endswitch
+            <a href="achievements/{{ $achievements[$i]['slug'] }}" class="rounded-2xl flex flex-col text-[#DCD7C9] shadow-lg shadow-black/30 ease-out duration-500 h-max w-96 overflow-hidden hover:scale-95 hover:cursor-pointer hover:bg-blend-darken group">
+                <div class="w-full h-[70%] bg-cover overflow-hidden">
+                    <img src="images/{{ $achievements[$i]['photo'] }}" class="ease-out duration-500 group-hover:scale-[115%] group-hover:rotate-3">
+                </div>
+                <div class="w-full h-[30%] p-4 {{ $color }} group-hover:brightness-90 duration-100 ease-out">
+                    <p class="text-3xl font-bold">{{ $achievements[$i]["title"] }}</p>
+                    <p class="italic font-thin">{{ $achievements[$i]["year"] }}</p>
+                    <p class="italic truncate">{{ $achievements[$i]["desc"] }}</p>
+                </div>
+            </a>
+        @endfor
     </div>
     <button class="fixed h-12 w-fit bottom-5 right-5 mx-1 rounded-md flex ease-out duration-500 bg-[#DCD7C9] text-[#2C3639] hover:text-[#DCD7C9] hover:bg-[#2C3639] z-20 hover:border hover:border-[#DCD7C9]" id="btt">
         <p class="w-fit h-fit my-auto mx-5 text-center uppercase tracking-wider font-regular">Back to top</p>

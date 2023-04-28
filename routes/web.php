@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\controllerAchievements;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -21,9 +22,9 @@ Route::get('/education', function () {
     return view('education');
 });
 
-Route::get('/achievements', function () {
-    return view('achievements');
-});
+// Route::get('/achievements', function () {
+//     return view('achievements');
+// });
 
 Route::get('/experiencesandskills', function () {
     return view('experiencesandskills');
@@ -32,3 +33,7 @@ Route::get('/experiencesandskills', function () {
 Route::get('/about', function () {
     return view('about');
 });
+
+Route::get('/achievements', [controllerAchievements::class, 'index']);
+
+Route::get('/achievements/{slug}', [controllerAchievements::class, 'single']);
