@@ -21,4 +21,4 @@
 ![AboutPage](https://github.com/danielzergew/profile/blob/main/public/images/aboutview.png?raw=true)
 
 # Video
-![Video](https://github.com/danielzergew/profile/blob/main/public/images/website.mp4?raw=true)
+https://user-images.githubusercontent.com/99462374/235421973-f60932bd-778d-4aa4-ad9a-981e81a22364.mp4
